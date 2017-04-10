@@ -1,0 +1,30 @@
+{
+  "name": "nafe",
+  "version": "0.0.0",
+  "description": "Checks if function is native.",
+  "main": "nafe.deploy.js",
+  "support": "nafe.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "check",
+    "function",
+    "native",
+    "nafe"
+  ],
+  "homepage": "https://github.com/volkovasystems/nafe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "falzy": "^0.17.0",
+    "protype": "^0.21.0",
+    "stringe": "^0.2.0"
+  }
+}
