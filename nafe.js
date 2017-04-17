@@ -34,6 +34,9 @@
 			"file": "nafe.js",
 			"module": "nafe",
 			"author": "Richeve S. Bebedor",
+			"contributors": [
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/nafe.git",
 			"test": "nafe-test.js",
