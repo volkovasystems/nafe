@@ -1,11 +1,12 @@
 {
   "name": "nafe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Checks if function is native.",
   "main": "nafe.deploy.js",
   "support": "nafe.support.js",
   "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -23,7 +24,7 @@
     "tests"
   ],
   "dependencies": {
-    "falzy": "^0.17.0",
+    "falzy": "^0.19.0",
     "protype": "^0.21.0",
     "stringe": "^0.2.0"
   }
