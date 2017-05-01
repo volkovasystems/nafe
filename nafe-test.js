@@ -1,5 +1,7 @@
-
+const assert = require( "assert" );
 const nafe = require( "./nafe.js" );
 
-console.log( nafe( Object.prototype.toString ) );
-console.log( nafe( function( ){ } ) );
+assert.equal( nafe( Object.prototype.toString ), true, "should be true" );
+assert.equal( nafe( function( ){ } ), false, "should be false" );
+
+console.log( "ok" );
