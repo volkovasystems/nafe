@@ -34,10 +34,11 @@
               			"file": "nafe.js",
               			"module": "nafe",
               			"author": "Richeve S. Bebedor",
-              			"contributors": [
-              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
-              			],
               			"eMail": "richeve.bebedor@gmail.com",
+              			"contributors": [
+              				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+              				"Vinse Vinalon <vinsevinalon@gmail.com>"
+              			],
               			"repository": "https://github.com/volkovasystems/nafe.git",
               			"test": "nafe-test.js",
               			"global": true
@@ -50,16 +51,12 @@
               
               	@include:
               		{
-              			"falzy": "falzy",
-              			"protype": "protype",
-              			"stringe": "stringe"
+              			"falzy": "falzy"
               		}
               	@end-include
               */
 
 var falzy = require("falzy");
-var protype = require("protype");
-var stringe = require("stringe");
 
 var NATIVE_FUNCTION_PATTERN = /\{\s*\[\s*native\s+code\s*\]\s*\}$/i;
 
@@ -72,12 +69,12 @@ var nafe = function nafe(procedure) {
                                      	@end-meta-configuration
                                      */
 
-	if (falzy(procedure) || !protype(procedure, FUNCTION)) {
+	if (falzy(procedure) || typeof procedure != "function") {
 		return false;
 	}
 
 	try {
-		return NATIVE_FUNCTION_PATTERN.test(stringe(procedure));
+		return NATIVE_FUNCTION_PATTERN.test(procedure.toString());
 
 	} catch (error) {
 		return false;
