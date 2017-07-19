@@ -1,6 +1,6 @@
 {
   "name": "nafe",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Checks if function is native.",
   "main": "nafe.deploy.js",
   "support": "nafe.support.js",
@@ -25,6 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "falzy": "^0.20.0"
+    "falzy": "^0.23.0",
+    "stringe": "^0.5.0"
   }
 }
