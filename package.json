@@ -46,7 +46,7 @@
 	},
 	"homepage": "https://github.com/volkovasystems/nafe#readme",
 	"dependencies": {
-		"babel-runtime": "^6.23.0",
+		"babel-runtime": "^6.25.0",
 		"falzy": "^0.23.0",
 		"stringe": "^0.5.0"
 	},
@@ -71,7 +71,7 @@
 		"wdio-mocha-framework": "^0.5.10",
 		"wdio-selenium-standalone-service": "^0.0.9",
 		"webdriverio": "^4.8.0",
-		"webpack": "^3.3.0",
+		"webpack": "^3.4.1",
 		"yargs": "^8.0.2"
 	}
 }
