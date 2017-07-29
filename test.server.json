@@ -5,15 +5,15 @@
 		"passes": 4,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-07-29T11:51:18.950Z",
-		"end": "2017-07-29T11:51:18.956Z",
-		"duration": 6
+		"start": "2017-07-29T11:55:50.307Z",
+		"end": "2017-07-29T11:55:50.318Z",
+		"duration": 11
 	},
 	"tests": [
 		{
 			"title": "should be equal to true",
 			"fullTitle": "nafe `nafe( Array.prototype.push )` should be equal to true",
-			"duration": 0,
+			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -27,7 +27,7 @@
 		{
 			"title": "should be equal to false",
 			"fullTitle": "nafe `nafe( function( ){ } )` should be equal to false",
-			"duration": 0,
+			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -45,7 +45,7 @@
 		{
 			"title": "should be equal to true",
 			"fullTitle": "nafe `nafe( Array.prototype.push )` should be equal to true",
-			"duration": 0,
+			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -59,7 +59,7 @@
 		{
 			"title": "should be equal to false",
 			"fullTitle": "nafe `nafe( function( ){ } )` should be equal to false",
-			"duration": 0,
+			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
 		},
