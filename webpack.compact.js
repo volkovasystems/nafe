@@ -7,7 +7,7 @@ const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 const ModuleConcatenationPlugin = webpack.optimize.ModuleConcatenationPlugin;
 
 module.exports = {
-	"entry": "./<module>.support.js",
+	"entry": "./nafe.support.js",
 	"resolve": {
 		"descriptionFiles": [
 			"bower.json",
@@ -34,9 +34,9 @@ module.exports = {
 		]
 	},
 	"output": {
-		"library": "<module>",
+		"library": "nafe",
 		"libraryTarget": "umd",
-		"filename": "<module>.deploy.js"
+		"filename": "nafe.deploy.js"
 	},
 	"plugins": [
 		new DefinePlugin( {
