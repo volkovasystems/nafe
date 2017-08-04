@@ -74,7 +74,6 @@ const path = require( "path" );
 
 describe( "nafe", ( ) => {
 
-
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
 		it( "should be equal to true", ( ) => {
 
@@ -100,6 +99,7 @@ describe( "nafe", ( ) => {
 
 		} );
 	} );
+
 
 	describe( "`nafe( ( ) => { } )`", ( ) => {
 		it( "should be equal to false", ( ) => {
@@ -118,7 +118,6 @@ describe( "nafe", ( ) => {
 
 describe( "nafe", ( ) => {
 
-
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
 		it( "should be equal to true", ( ) => {
 
@@ -145,6 +144,7 @@ describe( "nafe", ( ) => {
 		} );
 	} );
 
+
 	describe( "`nafe( ( ) => { } )`", ( ) => {
 		it( "should be equal to false", ( ) => {
 
@@ -161,13 +161,8 @@ describe( "nafe", ( ) => {
 
 describe( "nafe", ( ) => {
 
-	let directory = __dirname;
-	let testBridge = path.resolve( directory, "bridge.html" );
-	let bridgeURL = `file://${ testBridge }`;
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
 
-
-	//let result = browser.url( bridgeURL ).execute( ( ) => <test> );
-	//assert.equal( result.value, <expected> );
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
 		it( "should be equal to true", ( ) => {
 
@@ -196,6 +191,7 @@ describe( "nafe", ( ) => {
 
 		} );
 	} );
+
 
 	describe( "`nafe( ( ) => { } )`", ( ) => {
 		it( "should be equal to false", ( ) => {
