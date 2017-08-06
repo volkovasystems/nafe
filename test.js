@@ -70,7 +70,6 @@ const nafe = require( "./nafe.js" );
 
 describe( "nafe", ( ) => {
 
-
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
 		it( "should be equal to true", ( ) => {
 
@@ -96,6 +95,7 @@ describe( "nafe", ( ) => {
 
 		} );
 	} );
+
 
 	describe( "`nafe( ( ) => { } )`", ( ) => {
 		it( "should be equal to false", ( ) => {
