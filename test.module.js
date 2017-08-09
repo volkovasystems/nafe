@@ -71,7 +71,6 @@ const path = require( "path" );
 
 
 //: @server:
-
 describe( "nafe", ( ) => {
 
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
@@ -110,12 +109,10 @@ describe( "nafe", ( ) => {
 	} );
 
 } );
-
 //: @end-server
 
 
 //: @client:
-
 describe( "nafe", ( ) => {
 
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
@@ -158,7 +155,6 @@ describe( "nafe", ( ) => {
 
 
 //: @bridge:
-
 describe( "nafe", ( ) => {
 
 	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
@@ -203,5 +199,4 @@ describe( "nafe", ( ) => {
 	} );
 
 } );
-
 //: @end-bridge

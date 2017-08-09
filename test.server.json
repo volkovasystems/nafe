@@ -5,15 +5,15 @@
 		"passes": 4,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-08T02:05:27.053Z",
-		"end": "2017-08-08T02:05:27.058Z",
-		"duration": 5
+		"start": "2017-08-09T20:13:44.195Z",
+		"end": "2017-08-09T20:13:44.203Z",
+		"duration": 8
 	},
 	"tests": [
 		{
 			"title": "should be equal to true",
 			"fullTitle": "nafe `nafe( Array.prototype.push )` should be equal to true",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},
@@ -45,7 +45,7 @@
 		{
 			"title": "should be equal to true",
 			"fullTitle": "nafe `nafe( Array.prototype.push )` should be equal to true",
-			"duration": 1,
+			"duration": 0,
 			"currentRetry": 0,
 			"err": {}
 		},

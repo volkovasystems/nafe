@@ -67,7 +67,6 @@ const nafe = require( "./nafe.js" );
 
 
 //: @server:
-
 describe( "nafe", ( ) => {
 
 	describe( "`nafe( Array.prototype.push )`", ( ) => {
@@ -106,7 +105,6 @@ describe( "nafe", ( ) => {
 	} );
 
 } );
-
 //: @end-server
 
 
