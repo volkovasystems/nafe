@@ -71,14 +71,20 @@ const nafe = function nafe( procedure ){
 		@end-meta-configuration
 	*/
 
-	if( falzy( procedure ) || typeof procedure != "function" ){
+	if(
+			falzy( procedure )
+		||	typeof procedure != "function"
+	){
 		return false;
 	}
 
 	try{
-		return NATIVE_FUNCTION_PATTERN.test( stringe( procedure ) );
-
-	}catch( error ){
+		return (
+			NATIVE_FUNCTION_PATTERN
+			.test( stringe( procedure ) )
+		);
+	}
+	catch( error ){
 		return false;
 	}
 };
